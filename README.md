@@ -1,4 +1,4 @@
-# Collect & Distribute Content APIs: Crawl, Extract and Publish Web Content
+# Content Scraper APIs: Grab Text, Images and Videos From Any Website
 
 <p align="center">
  <img src="https://images.bigibyte.com/projects/bigibyte-github-collect-distribute-content-apis-cover.png" alt="Collect & Distribute Content APIs: content collection APIs" width="100%">
@@ -13,11 +13,12 @@
 <p align="center">
  <a href="#top-10-most-popular">Top 10</a> ·
  <a href="#table-of-contents">Categories</a> ·
- <a href="#how-to-use">How to use</a> ·
- <a href="#faq">FAQ</a>
+ <a href="#more-lists">More lists</a>
 </p>
 
-**A big, tidy list of content collection APIs** for crawling pages, extracting articles, saving media and feeding publish workflows. **32,871 APIs**, sorted by real users so the useful ones show up first.
+Need the words, pictures or videos from a website? These APIs go to the page, copy what you need, and hand it back neatly organized. **32,871 ready-to-use APIs**, sorted by real users so the best ones come first.
+
+These content scraping APIs help you crawl websites, extract articles, download media and collect social posts at scale. Use them for web crawling, article and news extraction, RSS and sitemap parsing, YouTube transcripts, website-to-markdown conversion for LLMs and RAG pipelines, and content monitoring. Each API runs in the cloud, returns JSON, CSV or Excel, and plugs into your own apps and automations.
 
 ---
 
@@ -1073,45 +1074,6 @@ If this list helped you, a star helps other people find it too.
 
 
 [View all 86 in this section →](lists/ebay-walmart.md)
-
----
-
-## How to use
-
-1. Open any API link in this repo.
-2. Read the input fields (usually a page URL, feed link or search term).
-3. Run a small test so you see the output shape.
-4. Export the dataset as JSON, CSV or Excel, or call the same API from your code.
-
-
-```bash
-# Example: send JSON to any HTTP API you choose
-curl -X POST "https://httpbin.org/post" \
- -H "Content-Type: application/json" \
- -d '{"query":"example","limit":10}'
-```
-
----
-
-## FAQ
-
-**What is the best API to scrape website content?** 
-Start with the [Top 10](#top-10-most-popular). Pick one that matches your site type, run a small test, then export.
-
-**Can I collect social media posts?** 
-Yes. See Instagram, TikTok, Facebook/Meta and X/Twitter sections when they appear in the table of contents.
-
-**How do I turn pages into clean text for AI?** 
-Use crawl and article-style APIs, then export JSON. Keep only the fields you need before you send them to a model.
-
-**How is this list organized?** 
-By theme. Full tables live in the [`lists/`](lists/) folder. The README shows a preview of each category.
-
-**How often is it updated?** 
-Last build: 2026-11-02. Rebuild when you need a newer snapshot.
-
-**Why do some ratings say n/a?** 
-That API has no public rating yet.
 
 ---
 
