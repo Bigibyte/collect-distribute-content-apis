@@ -54,6 +54,17 @@ These **32,871 ready-to-use content APIs** help you pull and move content in you
 
 Pick an API below, open it, try a small run, then export the results.
 
+<details>
+<summary><b>Who uses content collection APIs? (click to open)</b></summary>
+
+- **AI builders:** feed fresh web pages into RAG apps and LLM tools.
+- **Publishers and editors:** gather articles, images and videos for newsletters and feeds.
+- **SEO and content teams:** watch pages for changes and copy structure from top results.
+- **Data teams:** turn messy web pages into clean CSV or JSON rows.
+- **Creators:** pull transcripts and captions to reuse your own content.
+
+</details>
+
 ---
 
 ## ⭐ Star This Repository
